@@ -79,7 +79,7 @@ export function Customers() {
           <div key={customer.id} className="bg-white p-6 rounded-xl border border-gray-200 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4">
               {/* Avatar */}
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-xl font-semibold">
+              <div className="w-16 h-16 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-xl font-semibold">
                 {customer.name.charAt(0)}
               </div>
 

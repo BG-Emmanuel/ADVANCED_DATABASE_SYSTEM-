@@ -178,7 +178,7 @@ export function AIRiskMonitor() {
       </div>
 
       {/* AI System Info */}
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-6">
+      <div className="bg-linear-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-6">
         <div className="flex items-start gap-4">
           <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
             <Brain className="w-6 h-6 text-white" />
